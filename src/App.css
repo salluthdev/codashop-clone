@@ -19,7 +19,7 @@ body
 .wrapper
 {
   max-width: 1280px;
-  padding: 12px 40px;
+  padding: 28px 40px;
   margin: 0 auto;
 }
 .product-list-container
@@ -33,6 +33,7 @@ h1
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 36px;
   font-weight: 900;
+  text-transform: uppercase;
   color: var(--color-primary);
 }
 .product-list-container .product-list
@@ -45,9 +46,18 @@ h1
 .product-list-container .product-list .card
 {
   max-width: 196px;
-  height: 264px;
+  height: 260px;
   background: var(--color-dark-matter-5);
   border-radius: 8px;
+  cursor: pointer;
+}
+.product-list-container .product-list .card:hover
+{
+  transform: scale(0.98);
+}
+.product-list-container .product-list .card:hover img
+{
+  opacity: 0.5;
 }
 .product-list-container .product-list .card img
 {
