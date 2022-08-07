@@ -3,9 +3,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Codashop Clone</h1>
-      </header>
+      <main>
+        <div className="wrapper">
+          <h1>POPULER</h1>
+        </div>
+      </main>
     </div>
   );
 }

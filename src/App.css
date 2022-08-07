@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700;900&family=Noto+Sans:wght@400;700&display=swap');
 :root
 {
   --color-dark-matter-main: #280031;
@@ -11,9 +12,19 @@
 }
 body
 {
+  font-family: 'Noto Sans', sans-serif;
   background: var(--color-dark-matter-main);
+}
+.wrapper
+{
+  max-width: 1200px;
+  padding: 12px 40px;
+  margin: 0 auto;
 }
 h1
 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 36px;
+  font-weight: 900;
   color: var(--color-primary);
 }
