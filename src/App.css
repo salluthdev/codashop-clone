@@ -1,4 +1,19 @@
+:root
+{
+  --color-dark-matter-main: #280031;
+  --color-primary: #fff;
+}
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background: var(--color-dark-matter-main);
+}
 h1
 {
-  color: #222;
+  color: var(--color-primary);
 }
